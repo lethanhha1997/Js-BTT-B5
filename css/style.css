@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color:white;
+    scroll-behavior: smooth;
+}
+
+section{
+    width: 50%;
+   margin: 50px auto ;
+   border-radius: 12px;
+}
+.dom-menu{
+    background-color: #9ee8fc;
+    padding: 20px 10px 5px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+a i{
+    color: #fdd461;
+}
+ul {
+    list-style: none;
+    text-align: center;
+  }
+li{
+    display: inline-block;
+    margin-right: 30px;
+  }
+li a {
+    color: #000;
+    background-color: #ecf0f3;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+  }
+li a:hover{
+    text-decoration: none;
+    color: blue;
+    opacity: .8;
+}
+.right-item{
+    background-image: url(../img/abstract-watercolor-pastel-background_87374-139.webp);
+    border-radius: 12px;
+}
+input{
+    padding: 7px 10px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 30px;
+    background-color: #ecf0f3;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+}
+button:hover{
+   opacity: .8;
+   color:blue;
+   transition: .5s ease;
+}
+
+.text{
+    padding:10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    width: 53%;
+}
+.text i{
+    color: #fdd461;
+    font-size: 20px;
+}
+.input5{
+    width: 200px;
+}
+
+.form-control {
+    width: 40%;
+    display: inline-block;
+    margin-right: 30px;
+}
+.form-control{
+    width: 202px;
+    margin-right: 10px;
+    border-radius: 8px;
+    
+}
+
+
+.a{
+    display: none;
+}
+.b{
+    display: block;
+}
